@@ -49,15 +49,15 @@
         "default_profile": "tech-news",
         "profile_settings": {
             "finance-news": {
-                "threshold": 5.0,
+                "threshold": 3.0,
                 "topic_dedup": true
             },
             "tech-blog": {
-                "threshold": 4.0,
+                "threshold": 3.0,
                 "topic_dedup": false
             },
             "tech-news": {
-                "threshold": 5.0,
+                "threshold": 3.0,
                 "topic_dedup": true
             }
         },
