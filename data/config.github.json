@@ -4,8 +4,7 @@
         "api_key_env": "GOOGLE_API_KEY",
         "enrichment_concurrency": 5,
         "languages": [
-            "zh",
-            "en"
+            "zh"
         ],
         "max_tokens": 8192,
         "model": "gemini-2.0-flash",
@@ -50,7 +49,7 @@
         "default_profile": "tech-news",
         "profile_settings": {
             "finance-news": {
-                "threshold": 7.0,
+                "threshold": 5.0,
                 "topic_dedup": true
             },
             "tech-blog": {
@@ -58,7 +57,7 @@
                 "topic_dedup": false
             },
             "tech-news": {
-                "threshold": 7.0,
+                "threshold": 5.0,
                 "topic_dedup": true
             }
         },
